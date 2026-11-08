@@ -7,3 +7,7 @@
 <p><em>Figura 2. Modelo relacional del sistema de minimarket.</em></p>
 
 </div>
+
+<p align="center">
+  <a href="./README.md">⬅️ Volver al README.md</a>
+</p>
