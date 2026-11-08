@@ -10,3 +10,7 @@
 *Figura 1. Diagrama Entidad-Relación del sistema de minimarket.*
 
 </div>
+
+<p align="center">
+  <a href="./README.md">⬅️ Volver al README.md</a>
+</p>
