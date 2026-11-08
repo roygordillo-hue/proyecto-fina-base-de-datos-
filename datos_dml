@@ -1,0 +1,40 @@
+INSERT INTO CATEGORIA (id_categoria, nombre_categoria, descripcion) VALUES
+(1, 'Abarrotes', 'Productos básicos de despensa, granos y pastas'),
+(2, 'Lácteos', 'Leche, queso, yogurt y derivados'),
+(3, 'Bebidas', 'Jugos, gaseosas, aguas y energizantes'),
+(4, 'Limpieza', 'Productos para aseo del hogar y detergentes');
+
+INSERT INTO PROVEEDOR (id_proveedor, razon_social, nombre_contacto, telefono, direccion) VALUES
+(1, 'Distribuidora Andina', 'Carlos Ruiz', '0991234567', 'Av. Principal 123'),
+(2, 'Lácteos San Martin', 'Ana Torres', '0987654321', 'Calle Secundaria 456'),
+(3, 'Embotelladora Sur', 'Luis Pérez', '0971112223', 'Vía Panamericana Km 2');
+
+INSERT INTO CLIENTE (id_cliente, nombre, apellido, dni_ruc, telefono, correo, direccion) VALUES
+(1, 'Juan', 'Pérez', '1101234567', '0912345678', 'juan@email.com', 'Barrio Centro'),
+(2, 'María', 'Gómez', '1109876543', '0987654321', 'maria@email.com', 'Barrio Sur'),
+(3, 'Pedro', 'Castillo', '1105556667', '0998887776', 'pedro@email.com', 'Barrio Norte'),
+(4, 'Lucía', 'Valarezo', '1108889990', '0981112233', 'lucia@email.com', 'Barrio El Valle');
+
+INSERT INTO PRODUCTO (id_producto, id_proveedor, id_categoria, nombre, descripcion, precio_compra, precio_venta, stock_actual, stock_minimo) VALUES
+(1, 1, 1, 'Arroz Integral 1kg', 'Funda de arroz integral de grano largo', 1.50, 2.00, 50, 10),
+(2, 2, 2, 'Leche Entera 1L', 'Cartón de leche entera pasteurizada', 0.80, 1.10, 2, 5),
+(3, 3, 3, 'Coca Cola 2L', 'Gaseosa tamaño familiar desechable', 1.20, 1.75, 40, 10),
+(4, 1, 1, 'Aceite de Girasol 1L', 'Botella de aceite vegetal', 2.00, 2.80, 20, 5),
+(5, 2, 2, 'Queso Fresco 500g', 'Queso de mesa empacado al vacío', 1.50, 2.25, 15, 5),
+(6, 1, 4, 'Detergente Polvo 1kg', 'Detergente multiusos con aroma', 1.10, 1.60, 25, 10);
+
+INSERT INTO VENTA (id_venta, id_cliente, fecha_hora, total, metodo_pago) VALUES
+(1, 1, '2026-10-15 10:30:00', 4.20, 'Efectivo'),
+(2, 2, '2026-10-18 15:45:00', 5.65, 'Tarjeta de Débito'),
+(3, 3, '2026-10-20 09:15:00', 2.25, 'Efectivo'),
+(4, 4, '2026-10-22 18:20:00', 3.35, 'Transferencia');
+
+INSERT INTO DETALLE_VENTA (id_detalle, id_venta, id_producto, cantidad, precio_unitario, subtotal) VALUES
+(1, 1, 1, 1, 2.00, 2.00),
+(2, 1, 2, 2, 1.10, 2.20),
+(3, 2, 4, 1, 2.80, 2.80),
+(4, 2, 3, 1, 1.75, 1.75),
+(5, 2, 2, 1, 1.10, 1.10),
+(6, 3, 5, 1, 2.25, 2.25),
+(7, 4, 6, 1, 1.60, 1.60),
+(8, 4, 3, 1, 1.75, 1.75);
