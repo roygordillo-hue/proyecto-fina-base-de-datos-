@@ -36,5 +36,18 @@ Desarrollar un modelo y esquema de base de datos relacional para automatizar el 
 1. **Modelado Conceptual y Lógico:** Elaborar el Diagrama Entidad-Relación (E-R) y traducirlo al Modelo Relacional garantizando la integridad referencial y la normalización de los datos.
 2. **Implementación Física:** Construir los scripts SQL (DDL y DML) para la creación de tablas, restricciones de integridad y carga de datos de prueba.
 3. **Consulta y Extracción de Datos:** Formular y validar consultas complejas tanto en **Álgebra Relacional** (usando la herramienta *Relational*) como en **SQL**.
+   
+[IR A LA ESTRUCTURA DE LA BASE DE DATOS](estructura.md)
 
 [IR A MODELO ENTIDAD RELACION](modelo-identidad-relacion.md)
+
+[IR A MODELO RELACIONAL](modelo.relacional.md)
+
+[IR A CODIGO SQL](codigo_sql.md)
+
+[IR A DATOS DMl](datos_dml.md)
+
+[IR A LAS CONSULTAS](consultas.md)
+
+
+
