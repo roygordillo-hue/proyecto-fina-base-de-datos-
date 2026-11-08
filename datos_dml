@@ -1,3 +1,4 @@
+
 INSERT INTO CATEGORIA (id_categoria, nombre_categoria, descripcion) VALUES
 (1, 'Abarrotes', 'Productos básicos de despensa, granos y pastas'),
 (2, 'Lácteos', 'Leche, queso, yogurt y derivados'),
