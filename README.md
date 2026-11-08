@@ -1,3 +1,5 @@
+
+
 <h1 align="center">🛒 Automatización del Abastecimiento y Registro de Ventas para Minimarkets (minimarket_db)</h1>
 
 <h2 align="center">📌 Datos del Proyecto</h2>
@@ -34,3 +36,5 @@ Desarrollar un modelo y esquema de base de datos relacional para automatizar el 
 1. **Modelado Conceptual y Lógico:** Elaborar el Diagrama Entidad-Relación (E-R) y traducirlo al Modelo Relacional garantizando la integridad referencial y la normalización de los datos.
 2. **Implementación Física:** Construir los scripts SQL (DDL y DML) para la creación de tablas, restricciones de integridad y carga de datos de prueba.
 3. **Consulta y Extracción de Datos:** Formular y validar consultas complejas tanto en **Álgebra Relacional** (usando la herramienta *Relational*) como en **SQL**.
+
+[IR A MODELO ENTIDAD RELACION](modelo-identidad-relacion.md)
