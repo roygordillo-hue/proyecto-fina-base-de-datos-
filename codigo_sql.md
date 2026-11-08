@@ -68,4 +68,8 @@ CREATE TABLE DETALLE_VENTA (
     PRIMARY KEY (id_detalle),
     FOREIGN KEY (id_venta) REFERENCES VENTA(id_venta) ON DELETE CASCADE,
     FOREIGN KEY (id_producto) REFERENCES PRODUCTO(id_producto)
-);
+ );
+```
+<p align="center">
+  <a href="./README.md">⬅️ Volver al README.md</a>
+</p>
