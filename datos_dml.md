@@ -39,3 +39,7 @@ INSERT INTO DETALLE_VENTA (id_detalle, id_venta, id_producto, cantidad, precio_u
 (6, 3, 5, 1, 2.25, 2.25),
 (7, 4, 6, 1, 1.60, 1.60),
 (8, 4, 3, 1, 1.75, 1.75);
+
+<p align="center">
+  <a href="./README.md">⬅️ Volver al README.md</a>
+</p>
