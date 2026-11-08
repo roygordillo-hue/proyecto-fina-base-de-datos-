@@ -1,3 +1,4 @@
+
 ## 5. CONSULTA DE ÁLGEBRA RELACIONAL Y TRADUCIR A SQL
 
 ### Consulta 1: Control de inventario (Filtrado simple)
@@ -60,4 +61,6 @@ FROM CLIENTE
 WHERE direccion = 'Barrio Centro';
 - Resultado esperado: Se obtendrá un directorio filtrado conteniendo únicamente el nombre, apellido y teléfono de los clientes con dirección en 'Barrio Centro'.
  
-
+<p align="center">
+  <a href="./README.md">⬅️ Volver al README.md</a>
+</p>
