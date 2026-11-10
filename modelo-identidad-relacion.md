@@ -5,7 +5,7 @@
 ![Diagrama Entidad-Relación](URL_DE_TU_IMAGEN_AQUI.png)
 
 
-<img width="915" height="405" alt="image" src="https://github.com/user-attachments/assets/ff9c489b-f4fc-49bc-9253-fa12a58c08f7" />
+<img width="674" height="510" alt="image" src="https://github.com/user-attachments/assets/d44c147f-0cf0-4377-9070-6b3ef565ebb0" />
 
 *Figura 1. Diagrama Entidad-Relación del sistema de minimarket.*
 
