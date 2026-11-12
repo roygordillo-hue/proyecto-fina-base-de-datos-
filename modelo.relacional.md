@@ -2,7 +2,7 @@
 
 <h2>4.2. Modelo Relacional</h2>
 
-<img width="975" height="523" alt="Modelo Relacional" src="https://github.com/user-attachments/assets/c7bc3779-d51f-4508-839e-8477dfb4ecbc" />
+<img width="960" height="507" alt="1794489051550_image (1)" src="https://github.com/user-attachments/assets/8113c318-8a91-4365-b3e7-f3934c0e2b4e" />
 
 <p><em>Figura 2. Modelo relacional del sistema de minimarket.</em></p>
 
